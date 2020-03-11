@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizzería La Nueva Argentina|Galería</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" 
+	href="../css/carta.css">
+	<link rel="stylesheet" type="text/css"
+	 href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" 
+	href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+</head>
+<body >
+	<div id="cabezal">
+		<img id="logo" src="../images/logo.png">
+ 	 	<nav id="menu"><center>
+ 	 		<a href ="../../index.html">Inicio<span class="linea"></span></a> 
+ 	 		<a href ="./sobrenosotros.html">Sobre Nosotros<span class="linea"></span></a>
+ 	 		<a href ="./carta.html">Carta<span class="linea"></span></a> 
+ 	 		<a href ="./galeria.html">Galería<span class="linea"></span></a> 
+ 	 		<a href ="./contactenos.html">Contáctenos</a>
+ 	 		</center>
+ 	 	</nav>
+ 	 </div>
+<section>
+		<center>
+		<div class="comidas">
+	 		<p class="ncomida">Pizzas</p>
+	 	 </div>
+	 	 </center>
+ 	 <section class="carta" >
+ 	 	<div class="menu1">
+	 		<img class="img1" src="../images/pizzaclasica.png">
+		   	<img class="img2" src="../images/pizzadulce.png">
+		 	<img class="img3" src="../images/menu5.png">
+	    </div>
+	</section>
+	<center>
+	<div class="comidas">
+	 		<p class="ncomida">Parrillas</p>
+	 </div>
+	 </center>
+	 <section  >
+	 	<div class="menu2">
+		<img src="../images/parrilla.png">
+		<img src="../images/parrilla1.png">
+		</div>
+	</section>
+	<center>
+	<div class="comidas">
+	 		<p class="ncomida">Extras</p>
+	 	 </div>
+	 </center>
+	<section >
+		<div class="menu3">
+		<img src="../images/asados.png">
+		<img src="../images/fetuccini.png">
+		</div>
+	</section>
+	<center>
+	<div class="comidas">
+	 		<p class="ncomida">Licor</p>
+	 	 </div>
+	 </center>
+	<section >
+		<div class="menu4">
+		<img src="../images/calientitos.png">
+		<img src="../images/licor.png">
+		</div>
+	</section>
+	<center>
+	<div class="comidas">
+	 		<p class="ncomida">vinos</p>
+	 	 </div>
+	 </center>
+	<section >
+		<div class="menu5">
+			<img src="../images/vino 1.png">
+			<img src="../images/vino2.png">
+			<img src="../images/vino3.png">
+			<img src="../images/vino4.png">
+		</div>
+	</section>
+</section>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js">
+</script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">   
+</script>
+<script type="text/javascript">
+	$(document).on("ready",function(){
+		$(".menu1").slick({	
+		});
+	});
+</script>
+<script type="text/javascript">
+	$(document).on("ready",function(){
+		$(".menu2").slick({	
+		});
+	});
+</script>
+<script type="text/javascript">
+	$(document).on("ready",function(){
+		$(".menu3").slick({	
+		});
+	});
+</script>
+<script type="text/javascript">
+	$(document).on("ready",function(){
+		$(".menu4").slick({	
+		});
+	});
+</script>
+<script type="text/javascript">
+	$(document).on("ready",function(){
+		$(".menu5").slick({	
+		});
+	});
+</script>
+</body>
+</html>
