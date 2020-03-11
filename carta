@@ -1,0 +1,130 @@
+body{
+	display: block;
+	background-image: url("../images/pizza1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#cabezal{
+	height: 95px;
+	position: fixed;
+	display: inline-block;
+	background-color: #2e0d0c;
+	width: 100%;
+	margin-left: -0.53%;
+	margin-top: -0.53%;
+	z-index: 9;
+	top: 0;
+}
+#menu {
+	background: #2e0d0c;
+	margin-left: -1.5%;
+	display: inline-block;
+}
+#menu a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	padding-top: 20px;
+	padding-left: 40px;
+	padding-bottom: 20px;
+	font-family: 'edwardian script itc';
+	font-size: 45px;
+
+}
+#menu a .linea{
+	width: 2px;
+	height: 20px;
+	background: white;
+	display: inline-block;
+	margin-left: 40px;
+}
+#menu a:hover{
+	color: #ef4339;
+}
+#logo{
+	float: left;
+	max-height: 90%;
+	margin-right: 8%;
+}
+section{
+	padding-top: 150px;
+}
+.comidas {
+	font-family: fantasy;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+	border-radius: 10px;
+	width: 300px;
+	border: 3px solid white;
+
+}
+.ncomida {
+	font-size: 80px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+
+.menu1{
+	
+	width: 60%;
+	margin:0px auto;
+	margin-bottom: 7%;
+}
+.menu2{
+	
+	width: 60%;
+	margin:0px auto;
+	margin-bottom: 7%;
+}
+.menu3{
+	
+	width: 60%;
+	margin:0px auto;
+	margin-bottom: 7%;
+}
+.menu4{
+	
+	width: 60%;
+	margin:0px auto;
+	margin-bottom: 7%;
+}
+.menu5{
+	width: 60%;
+	margin:0px auto;
+	margin-bottom: 7%;
+}
+@media screen and (max-width:1000px) {
+	body {
+		margin: 0px;
+	}
+	#logo{
+		display: inline-block;
+		width: 170px;
+		margin: 10px;
+	}
+	
+	#menu a {
+		display: block;
+		float: none;
+		border-bottom: 1px solid #ccc;
+		
+		font-size: 40px;
+	}
+	#menu a .linea {
+		display: none;
+	}
+@media screen and (max-width:600px) {
+	#logo {
+		display: none;
+	}
+	
+	#menu {
+		margin-top: 30%;
+	}
+	#menu a {
+		font-size: 25px;
+	}
+}	
